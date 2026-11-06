@@ -1,0 +1,132 @@
+html {
+  background: url('') no-repeat ;
+  background-size: 100%;
+  font-family: Times New Roman;
+}
+
+body {
+  background-color: #FFCA86;
+}
+
+.Zagolovok {
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+}
+.Zagolovok_2 {
+  text-align: center;
+  font-size: 35; 
+}
+
+
+
+span {
+  color: turquoise;
+  font-size: 30px;
+margin: 50px auto;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.main img {
+    max-width: 600px;
+}
+
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.Ssulka_na_Rabotu {
+    font-size: 20px;
+    color: aqua;
+    text-decoration:red none;
+}
+.main_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.img_2 {
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+
+.main-info_2 {
+    max-width: 500px;
+}
+
+.icon_1 {
+  width: 20px;
+}
+
+.icon_2 {
+  width: 20px;
+}
+
+.icon_3 {
+  width: 20px;
+}
+
+
+
+.Pole_Zapolnenia {
+    text-align: center;
+    
+}
+
+.Zakaz {
+padding: 10px;
+font-size: 23px;
+border-radius: 10px;
+margin-bottom: 10px;
+border: 2px solid gray;
+font-style: italic; 
+}
+
+.Bolshoe_pole {
+width: 270px;
+height: 100px;
+padding: 10px;
+font-size: 23px;
+border-radius: 10px;
+margin-bottom: 10px;
+border: 2px solid gray;
+font-style: italic;
+}
+
+input::placeholder, textarea::placeholder {
+    color: blue;
+    font-style: italic;
+}
+
+form button{
+ background-color:turquoise; 
+  color: white;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 3px solid ;
+  text-transform: uppercase;
+  width:300px ;
+}
+
+
+.Zakaz_Knopka:hover {
+ background-color:gray; 
+  color: white;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 3px solid ;
+  text-transform: uppercase;
+  width:300px ;
+}
+
